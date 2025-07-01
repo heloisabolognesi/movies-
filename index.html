@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMagic - O Portal dos Filmes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>CineMagic</h1>
+                <span class="brand-tagline">Premium Streaming</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link" data-translate="nav-home">Início</a>
+                <a href="#releases" class="nav-link" data-translate="nav-releases">Lançamentos</a>
+                <a href="#series" class="nav-link" data-translate="nav-series">Séries</a>
+                <a href="#movies" class="nav-link" data-translate="nav-movies">Filmes</a>
+                <a href="#documentaries" class="nav-link" data-translate="nav-docs">Documentários</a>
+                <a href="#kids" class="nav-link" data-translate="nav-kids">Infantil</a>
+            </div>
+            <div class="nav-actions">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" class="search-input" data-translate-placeholder="search-placeholder" placeholder="Buscar filmes e séries...">
+                </div>
+                <select class="language-selector" id="languageSelector">
+                    <option value="pt">🌐 Português</option>
+                    <option value="en">🌐 English</option>
+                    <option value="es">🌐 Español</option>
+                </select>
+                <div class="user-profile">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <button class="login-btn" data-translate="login">Entrar</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section Netflix Style -->
+    <section id="home" class="hero-netflix">
+        <div class="hero-background">
+            <div class="movie-grid-bg">
+                <div class="movie-covers-grid">
+                    <img src="images/nnaiL0rWLO77.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/474NdSFKQIYh.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/XlLNcVbeL9ZB.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/TiyyfX8R4MNW.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/PDVpQFejKaTD.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/bwng2ITDNzHL.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/hHG7xRxnKEpV.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/VNKEu8SnVVdB.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/C000jKRDELzb.png" alt="Movie Cover" class="cover-image">
+                    <img src="images/IuPIhA0t5zEJ.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/TYyHaB3zqcsM.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/DF4WKCzBvC5Z.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/Cc0zkqsyLCHx.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/P4HPsPmJZVri.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/M3z1dpTLCRmm.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/Gfpbf4ogqlPQ.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/wPUyn9e8gSgJ.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/Nk8PPQBkhl2S.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/3XLDyF6uomkN.jpg" alt="Movie Cover" class="cover-image">
+                    <img src="images/Av80XUcaJlSN.jpg" alt="Movie Cover" class="cover-image">
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content-netflix">
+            <div class="hero-badge">
+                <i class="fas fa-crown"></i>
+                <span data-translate="premium-experience">Premium Experience</span>
+            </div>
+            <h1 class="hero-title-netflix" data-translate="hero-title">Filmes, séries e muito mais, sem limites</h1>
+            <p class="hero-description" data-translate="hero-description">Assista onde quiser. Cancele quando quiser. Milhares de títulos em alta qualidade.</p>
+            <div class="hero-features">
+                <div class="feature-item">
+                    <i class="fas fa-play-circle"></i>
+                    <span data-translate="streaming-unlimited">Streaming ilimitado</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-download"></i>
+                    <span data-translate="download-offline">Download offline</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-tv"></i>
+                    <span data-translate="multiple-screens">Múltiplas telas</span>
+                </div>
+            </div>
+            
+            <form class="email-signup-form">
+                <div class="input-group">
+                    <input type="email" class="email-input" data-translate-placeholder="email-placeholder" placeholder="Digite seu email" required>
+                    <button type="submit" class="signup-btn" data-translate="signup-btn">
+                        <span>Começar agora</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <p class="signup-note" data-translate="signup-note">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Trending Now Section -->
+    <section id="trending" class="category-section trending">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="trending-title">🔥 Em Alta Agora</h2>
+                <p class="section-subtitle" data-translate="trending-subtitle">Os títulos mais assistidos da semana</p>
+                <div class="section-controls">
+                    <button class="filter-btn active" data-filter="all" data-translate="filter-all">Todos</button>
+                    <button class="filter-btn" data-filter="movies" data-translate="filter-movies">Filmes</button>
+                    <button class="filter-btn" data-filter="series" data-translate="filter-series">Séries</button>
+                </div>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn" id="trendingPrev">‹</button>
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="trendingTrack">
+                        <div class="carousel-item" data-type="movie">
+                            <div class="movie-card premium">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Oppenheimer">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="trending-badge">#1</div>
+                                    <div class="quality-badge">4K</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Oppenheimer</h3>
+                                    <p>Drama biográfico sobre o criador da bomba atômica</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 8.3</span>
+                                        <span class="year">2023</span>
+                                        <span class="duration">3h 0min</span>
+                                    </div>
+                                    <div class="genres">
+                                        <span class="genre">Drama</span>
+                                        <span class="genre">História</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-type="movie">
+                            <div class="movie-card premium">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="Barbie">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="trending-badge">#2</div>
+                                    <div class="quality-badge">HDR</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Barbie</h3>
+                                    <p>Comédia fantástica sobre a boneca mais famosa do mundo</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 7.0</span>
+                                        <span class="year">2023</span>
+                                        <span class="duration">1h 54min</span>
+                                    </div>
+                                    <div class="genres">
+                                        <span class="genre">Comédia</span>
+                                        <span class="genre">Fantasia</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-type="series">
+                            <div class="movie-card premium">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/b0WmHGc8LHTdGCVzxRb3IBMur57.jpg" alt="The Last of Us">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="trending-badge">#3</div>
+                                    <div class="quality-badge">4K</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>The Last of Us</h3>
+                                    <p>Drama pós-apocalíptico baseado no famoso videogame</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 8.7</span>
+                                        <span class="year">2023</span>
+                                        <span class="duration">9 episódios</span>
+                                    </div>
+                                    <div class="genres">
+                                        <span class="genre">Drama</span>
+                                        <span class="genre">Terror</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-type="movie">
+                            <div class="movie-card premium">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg" alt="Duna: Parte Dois">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="trending-badge">#4</div>
+                                    <div class="quality-badge">IMAX</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Duna: Parte Dois</h3>
+                                    <p>Continuação épica da saga de ficção científica</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 8.5</span>
+                                        <span class="year">2024</span>
+                                        <span class="duration">2h 46min</span>
+                                    </div>
+                                    <div class="genres">
+                                        <span class="genre">Ficção Científica</span>
+                                        <span class="genre">Aventura</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-type="series">
+                            <div class="movie-card premium">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/6kbAMLteGO8yyewYau6bJ683sw7.jpg" alt="Wednesday">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="trending-badge">#5</div>
+                                    <div class="quality-badge">HD</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Wednesday</h3>
+                                    <p>Série sobrenatural sobre a filha da Família Addams</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 8.1</span>
+                                        <span class="year">2022</span>
+                                        <span class="duration">8 episódios</span>
+                                    </div>
+                                    <div class="genres">
+                                        <span class="genre">Mistério</span>
+                                        <span class="genre">Comédia</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn" id="trendingNext">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Releases Section -->
+    <section id="releases" class="category-section releases">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="releases-title">🎬 Lançamentos</h2>
+                <p class="section-subtitle" data-translate="releases-subtitle">Os filmes mais recentes do cinema</p>
+                <a href="#" class="view-all-btn" data-translate="view-all">Ver todos <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn" id="releasesPrev">‹</button>
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="releasesTrack">
+                        <div class="carousel-item">
+                            <div class="movie-card">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/5YZbUmjbMa3ClvSW1Wj2yGmapfI.jpg" alt="Guardiões da Galáxia Vol. 3">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="new-badge">NOVO</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Guardiões da Galáxia Vol. 3</h3>
+                                    <p>A conclusão épica da trilogia dos Guardiões</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 8.0</span>
+                                        <span class="year">2023</span>
+                                        <span class="duration">2h 30min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="movie-card">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/A7AoNT06aRAc4SV89Dwxj3EYAgC.jpg" alt="Indiana Jones 5">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="new-badge">NOVO</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Indiana Jones e o Chamado do Destino</h3>
+                                    <p>A última aventura do arqueólogo mais famoso</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 6.9</span>
+                                        <span class="year">2023</span>
+                                        <span class="duration">2h 34min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="movie-card">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/fiVW06jE7z9YnO4trhaMEdclSiC.jpg" alt="Velozes e Furiosos 10">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="new-badge">NOVO</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Velozes e Furiosos 10</h3>
+                                    <p>Ação automotiva extrema com a família Dom</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 5.8</span>
+                                        <span class="year">2023</span>
+                                        <span class="duration">2h 21min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="movie-card">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg" alt="John Wick 4">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="new-badge">NOVO</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>John Wick: Baba Yaga</h3>
+                                    <p>Ação brutal e elegante com Keanu Reeves</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 7.7</span>
+                                        <span class="year">2023</span>
+                                        <span class="duration">2h 49min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="movie-card">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg" alt="Avatar: O Caminho da Água">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="new-badge">NOVO</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Avatar: O Caminho da Água</h3>
+                                    <p>Épico visual de James Cameron em Pandora</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 7.6</span>
+                                        <span class="year">2022</span>
+                                        <span class="duration">3h 12min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn" id="releasesNext">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Series Section -->
+    <section id="series" class="category-section series">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="series-title">📺 Séries Populares</h2>
+                <p class="section-subtitle" data-translate="series-subtitle">As melhores séries para maratonar</p>
+                <a href="#" class="view-all-btn" data-translate="view-all">Ver todas <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="movies-grid">
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg" alt="Stranger Things">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="episodes-badge">4 Temporadas</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Stranger Things</h3>
+                        <p>Mistério sobrenatural nos anos 80</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.7</span>
+                            <span class="year">2016-2022</span>
+                            <span class="duration">42 episódios</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Ficção Científica</span>
+                            <span class="genre">Terror</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/clnyhPqj1SNgpAdeSS6a6fwE6Bo.jpg" alt="Breaking Bad">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="episodes-badge">5 Temporadas</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Breaking Bad</h3>
+                        <p>Drama criminal sobre um professor de química</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 9.5</span>
+                            <span class="year">2008-2013</span>
+                            <span class="duration">62 episódios</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Drama</span>
+                            <span class="genre">Crime</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/z2yahl2uefxDCl0nogcRBstwruJ.jpg" alt="Game of Thrones">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="episodes-badge">8 Temporadas</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Game of Thrones</h3>
+                        <p>Épico de fantasia medieval com dragões e política</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 9.2</span>
+                            <span class="year">2011-2019</span>
+                            <span class="duration">73 episódios</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Fantasia</span>
+                            <span class="genre">Drama</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg" alt="House of the Dragon">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="episodes-badge">2 Temporadas</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>House of the Dragon</h3>
+                        <p>Prequel de Game of Thrones sobre a Casa Targaryen</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.4</span>
+                            <span class="year">2022-</span>
+                            <span class="duration">18 episódios</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Fantasia</span>
+                            <span class="genre">Drama</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/mY7SeH4HFFxW1hiI6cWuwCRKptN.jpg" alt="The Witcher">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="episodes-badge">3 Temporadas</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>The Witcher</h3>
+                        <p>Fantasia épica com Henry Cavill como Geralt</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.2</span>
+                            <span class="year">2019-</span>
+                            <span class="duration">24 episódios</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Fantasia</span>
+                            <span class="genre">Aventura</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/6UH52Fmau8RPsMAbQbjwN3wJSCj.jpg" alt="Money Heist">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="episodes-badge">5 Temporadas</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>La Casa de Papel</h3>
+                        <p>Thriller espanhol sobre o maior assalto da história</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.2</span>
+                            <span class="year">2017-2021</span>
+                            <span class="duration">41 episódios</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Crime</span>
+                            <span class="genre">Thriller</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section id="movies" class="category-section movies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🎭 Filmes Aclamados</h2>
+                <p class="section-subtitle">Obras-primas do cinema mundial</p>
+                <a href="#" class="view-all-btn">Ver todos <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="movies-grid">
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg" alt="Parasita">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="award-badge">🏆 Oscar</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Parasita</h3>
+                        <p>Thriller psicológico sul-coreano premiado</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.5</span>
+                            <span class="year">2019</span>
+                            <span class="duration">2h 12min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Thriller</span>
+                            <span class="genre">Drama</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="Interestelar">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="quality-badge">IMAX</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Interestelar</h3>
+                        <p>Ficção científica emocionante de Christopher Nolan</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.6</span>
+                            <span class="year">2014</span>
+                            <span class="duration">2h 49min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Ficção Científica</span>
+                            <span class="genre">Drama</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg" alt="Coringa">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="award-badge">🏆 Oscar</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Coringa</h3>
+                        <p>Drama psicológico intenso com Joaquin Phoenix</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.4</span>
+                            <span class="year">2019</span>
+                            <span class="duration">2h 2min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Drama</span>
+                            <span class="genre">Crime</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg" alt="1917">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="award-badge">🏆 Oscar</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>1917</h3>
+                        <p>Drama de guerra épico filmado em plano sequência</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.3</span>
+                            <span class="year">2019</span>
+                            <span class="duration">1h 59min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Guerra</span>
+                            <span class="genre">Drama</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="A Origem">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="quality-badge">4K</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>A Origem</h3>
+                        <p>Thriller de ficção científica sobre sonhos</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.8</span>
+                            <span class="year">2010</span>
+                            <span class="duration">2h 28min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Ficção Científica</span>
+                            <span class="genre">Thriller</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg" alt="Pulp Fiction">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="award-badge">🏆 Palma de Ouro</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Pulp Fiction</h3>
+                        <p>Clássico de Quentin Tarantino</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.9</span>
+                            <span class="year">1994</span>
+                            <span class="duration">2h 34min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Crime</span>
+                            <span class="genre">Drama</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentaries Section -->
+    <section id="documentaries" class="category-section documentaries">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🎥 Documentários</h2>
+                <p class="section-subtitle">Histórias reais que inspiram</p>
+                <a href="#" class="view-all-btn">Ver todos <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="carousel-btn prev-btn" id="docsPrev">‹</button>
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="docsTrack">
+                        <div class="carousel-item">
+                            <div class="movie-card">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/bP7u19opmHXYeTCUwGjlLldmUMc.jpg" alt="Free Solo">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="award-badge">🏆 Oscar</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Free Solo</h3>
+                                    <p>Escalada sem cordas em El Capitan</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 8.1</span>
+                                        <span class="year">2018</span>
+                                        <span class="duration">1h 40min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="movie-card">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg" alt="My Octopus Teacher">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                    <div class="award-badge">🏆 Oscar</div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>My Octopus Teacher</h3>
+                                    <p>Conexão extraordinária com um polvo</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 8.1</span>
+                                        <span class="year">2020</span>
+                                        <span class="duration">1h 25min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="movie-card">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg" alt="The Social Dilemma">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>O Dilema das Redes</h3>
+                                    <p>O impacto das redes sociais na sociedade</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 7.6</span>
+                                        <span class="year">2020</span>
+                                        <span class="duration">1h 34min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="movie-card">
+                                <div class="movie-poster">
+                                    <img src="https://image.tmdb.org/t/p/w500/6n7Z6qNgXoWzRk5MXLTMZuzlNfD.jpg" alt="Won't You Be My Neighbor?">
+                                    <div class="movie-overlay">
+                                        <button class="play-btn"><i class="fas fa-play"></i></button>
+                                        <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                                        <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                                    </div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3>Won't You Be My Neighbor?</h3>
+                                    <p>A vida de Mister Rogers</p>
+                                    <div class="movie-meta">
+                                        <span class="rating">⭐ 8.4</span>
+                                        <span class="year">2018</span>
+                                        <span class="duration">1h 54min</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn" id="docsNext">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kids Section -->
+    <section id="kids" class="category-section kids">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🧸 Infantil</h2>
+                <p class="section-subtitle">Diversão garantida para toda a família</p>
+                <a href="#" class="view-all-btn">Ver todos <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="movies-grid">
+                <div class="movie-card kids-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg" alt="Encanto">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="age-badge">L</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Encanto</h3>
+                        <p>Magia familiar na Colômbia</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 7.2</span>
+                            <span class="year">2021</span>
+                            <span class="duration">1h 42min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Animação</span>
+                            <span class="genre">Família</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card kids-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg" alt="Turning Red">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="age-badge">L</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Red: Crescer é uma Fera</h3>
+                        <p>Adolescência e transformações</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 7.0</span>
+                            <span class="year">2022</span>
+                            <span class="duration">1h 40min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Animação</span>
+                            <span class="genre">Comédia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card kids-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg" alt="Luca">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="age-badge">L</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Luca</h3>
+                        <p>Aventura de verão na Riviera Italiana</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 7.4</span>
+                            <span class="year">2021</span>
+                            <span class="duration">1h 35min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Animação</span>
+                            <span class="genre">Aventura</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card kids-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/xnopI5Xtky18MPhK40cZAGAOVeV.jpg" alt="Moana">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="age-badge">L</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Moana: Um Mar de Aventuras</h3>
+                        <p>Jornada épica pelos oceanos</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 7.6</span>
+                            <span class="year">2016</span>
+                            <span class="duration">1h 47min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Animação</span>
+                            <span class="genre">Musical</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card kids-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/3bOGNsHlrswhyW79uvIHH1wiSZz.jpg" alt="Coco">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="age-badge">L</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Viva - A Vida é uma Festa</h3>
+                        <p>Celebração da cultura mexicana</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.4</span>
+                            <span class="year">2017</span>
+                            <span class="duration">1h 45min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Animação</span>
+                            <span class="genre">Família</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card kids-card">
+                    <div class="movie-poster">
+                        <img src="https://image.tmdb.org/t/p/w500/2CAL2433ZeIihfX1Hb2139CX0pW.jpg" alt="Soul">
+                        <div class="movie-overlay">
+                            <button class="play-btn"><i class="fas fa-play"></i></button>
+                            <button class="info-btn"><i class="fas fa-info-circle"></i></button>
+                            <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+                        </div>
+                        <div class="age-badge">L</div>
+                    </div>
+                    <div class="movie-info">
+                        <h3>Soul</h3>
+                        <p>Jornada sobre propósito e paixão</p>
+                        <div class="movie-meta">
+                            <span class="rating">⭐ 8.0</span>
+                            <span class="year">2020</span>
+                            <span class="duration">1h 40min</span>
+                        </div>
+                        <div class="genres">
+                            <span class="genre">Animação</span>
+                            <span class="genre">Drama</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CineMagic</h3>
+                    <p>Sua plataforma premium de streaming com os melhores filmes e séries do mundo.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#releases">Lançamentos</a></li>
+                        <li><a href="#series">Séries</a></li>
+                        <li><a href="#movies">Filmes</a></li>
+                        <li><a href="#documentaries">Documentários</a></li>
+                        <li><a href="#kids">Infantil</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Informações Corporativas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Conta</h4>
+                    <ul>
+                        <li><a href="#">Minha Conta</a></li>
+                        <li><a href="#">Gerenciar Perfis</a></li>
+                        <li><a href="#">Minha Lista</a></li>
+                        <li><a href="#">Configurações</a></li>
+                        <li><a href="#">Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CineMagic. Todos os direitos reservados. | Desenvolvido com ❤️ para cinéfilos</p>
+                <div class="footer-badges">
+                    <span class="badge">4K Ultra HD</span>
+                    <span class="badge">Dolby Atmos</span>
+                    <span class="badge">HDR</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Translation system
+        const translations = {
+            pt: {
+                'login': 'Entrar',
+                'hero-title': 'Filmes, séries e muito mais, sem limites',
+                'hero-description': 'Assista onde quiser. Cancele quando quiser. Milhares de títulos em alta qualidade.',
+                'email-placeholder': 'Digite seu email',
+                'signup-btn': 'Começar agora',
+                'signup-note': 'Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.',
+                'trending-title': '🔥 Em Alta Agora',
+                'trending-subtitle': 'Os títulos mais assistidos da semana',
+                'releases-title': '🎬 Lançamentos',
+                'releases-subtitle': 'Os filmes mais recentes do cinema',
+                'series-title': '📺 Séries Populares',
+                'series-subtitle': 'As melhores séries para maratonar',
+                'movies-title': '🎭 Filmes Aclamados',
+                'movies-subtitle': 'Obras-primas do cinema mundial',
+                'docs-title': '🎥 Documentários',
+                'docs-subtitle': 'Histórias reais que inspiram',
+                'kids-title': '🧸 Infantil',
+                'kids-subtitle': 'Diversão garantida para toda a família',
+                'view-all': 'Ver todos',
+                'filter-all': 'Todos',
+                'filter-movies': 'Filmes',
+                'filter-series': 'Séries',
+                'streaming-unlimited': 'Streaming ilimitado',
+                'download-offline': 'Download offline',
+                'multiple-screens': 'Múltiplas telas',
+                'premium-experience': 'Premium Experience',
+                'search-placeholder': 'Buscar filmes e séries...',
+                'nav-home': 'Início',
+                'nav-releases': 'Lançamentos',
+                'nav-series': 'Séries',
+                'nav-movies': 'Filmes',
+                'nav-docs': 'Documentários',
+                'nav-kids': 'Infantil'
+            },
+            en: {
+                'login': 'Sign In',
+                'hero-title': 'Movies, series and much more, unlimited',
+                'hero-description': 'Watch anywhere. Cancel anytime. Thousands of titles in high quality.',
+                'email-placeholder': 'Enter your email',
+                'signup-btn': 'Get Started',
+                'signup-note': 'Ready to watch? Enter your email to create or restart your membership.',
+                'trending-title': '🔥 Trending Now',
+                'trending-subtitle': 'The most watched titles this week',
+                'releases-title': '🎬 New Releases',
+                'releases-subtitle': 'The latest movies from cinema',
+                'series-title': '📺 Popular Series',
+                'series-subtitle': 'The best series to binge-watch',
+                'movies-title': '🎭 Acclaimed Movies',
+                'movies-subtitle': 'Masterpieces of world cinema',
+                'docs-title': '🎥 Documentaries',
+                'docs-subtitle': 'Real stories that inspire',
+                'kids-title': '🧸 Kids',
+                'kids-subtitle': 'Fun guaranteed for the whole family',
+                'view-all': 'View all',
+                'filter-all': 'All',
+                'filter-movies': 'Movies',
+                'filter-series': 'Series',
+                'streaming-unlimited': 'Unlimited streaming',
+                'download-offline': 'Offline download',
+                'multiple-screens': 'Multiple screens',
+                'premium-experience': 'Premium Experience',
+                'search-placeholder': 'Search movies and series...',
+                'nav-home': 'Home',
+                'nav-releases': 'Releases',
+                'nav-series': 'Series',
+                'nav-movies': 'Movies',
+                'nav-docs': 'Documentaries',
+                'nav-kids': 'Kids'
+            },
+            es: {
+                'login': 'Iniciar Sesión',
+                'hero-title': 'Películas, series y mucho más, sin límites',
+                'hero-description': 'Mira donde quieras. Cancela cuando quieras. Miles de títulos en alta calidad.',
+                'email-placeholder': 'Ingresa tu email',
+                'signup-btn': 'Comenzar Ahora',
+                'signup-note': '¿Listo para ver? Ingresa tu email para crear o reiniciar tu membresía.',
+                'trending-title': '🔥 Tendencias Ahora',
+                'trending-subtitle': 'Los títulos más vistos de la semana',
+                'releases-title': '🎬 Estrenos',
+                'releases-subtitle': 'Las películas más recientes del cine',
+                'series-title': '📺 Series Populares',
+                'series-subtitle': 'Las mejores series para maratonear',
+                'movies-title': '🎭 Películas Aclamadas',
+                'movies-subtitle': 'Obras maestras del cine mundial',
+                'docs-title': '🎥 Documentales',
+                'docs-subtitle': 'Historias reales que inspiran',
+                'kids-title': '🧸 Infantil',
+                'kids-subtitle': 'Diversión garantizada para toda la familia',
+                'view-all': 'Ver todos',
+                'filter-all': 'Todos',
+                'filter-movies': 'Películas',
+                'filter-series': 'Series',
+                'streaming-unlimited': 'Streaming ilimitado',
+                'download-offline': 'Descarga offline',
+                'multiple-screens': 'Múltiples pantallas',
+                'premium-experience': 'Experiencia Premium',
+                'search-placeholder': 'Buscar películas y series...',
+                'nav-home': 'Inicio',
+                'nav-releases': 'Estrenos',
+                'nav-series': 'Series',
+                'nav-movies': 'Películas',
+                'nav-docs': 'Documentales',
+                'nav-kids': 'Infantil'
+            }
+        };
+
+        let currentLanguage = 'pt';
+
+        function translatePage(language) {
+            currentLanguage = language;
+            const elements = document.querySelectorAll('[data-translate]');
+            
+            elements.forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (translations[language] && translations[language][key]) {
+                    element.textContent = translations[language][key];
+                }
+            });
+
+            // Translate placeholders
+            const placeholderElements = document.querySelectorAll('[data-translate-placeholder]');
+            placeholderElements.forEach(element => {
+                const key = element.getAttribute('data-translate-placeholder');
+                if (translations[language] && translations[language][key]) {
+                    element.placeholder = translations[language][key];
+                }
+            });
+
+            // Update language selector
+            const languageSelector = document.getElementById('languageSelector');
+            if (languageSelector) {
+                languageSelector.value = language;
+            }
+        }
+
+        // Language selector event
+        document.addEventListener('DOMContentLoaded', () => {
+            const languageSelector = document.getElementById('languageSelector');
+            if (languageSelector) {
+                languageSelector.addEventListener('change', (e) => {
+                    translatePage(e.target.value);
+                });
+            }
+        });
+
+        // Carousel functionality
+        function initCarousel(trackId, prevBtnId, nextBtnId) {
+            const track = document.getElementById(trackId);
+            const prevBtn = document.getElementById(prevBtnId);
+            const nextBtn = document.getElementById(nextBtnId);
+            
+            if (!track || !prevBtn || !nextBtn) return;
+            
+            let currentIndex = 0;
+            const items = track.children;
+            const itemsToShow = window.innerWidth <= 768 ? 1 : window.innerWidth <= 1024 ? 2 : 4;
+            const maxIndex = Math.max(0, items.length - itemsToShow);
+            
+            function updateCarousel() {
+                const translateX = -(currentIndex * (100 / itemsToShow));
+                track.style.transform = `translateX(${translateX}%)`;
+                
+                prevBtn.disabled = currentIndex === 0;
+                nextBtn.disabled = currentIndex >= maxIndex;
+            }
+            
+            prevBtn.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateCarousel();
+                }
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                if (currentIndex < maxIndex) {
+                    currentIndex++;
+                    updateCarousel();
+                }
+            });
+            
+            updateCarousel();
+        }
+        
+        // Initialize all carousels
+        document.addEventListener('DOMContentLoaded', () => {
+            initCarousel('trendingTrack', 'trendingPrev', 'trendingNext');
+            initCarousel('releasesTrack', 'releasesPrev', 'releasesNext');
+            initCarousel('docsTrack', 'docsPrev', 'docsNext');
+            
+            // Mobile menu toggle
+            const hamburger = document.querySelector('.hamburger');
+            const navActions = document.querySelector('.nav-actions');
+            
+            if (hamburger && navActions) {
+                hamburger.addEventListener('click', () => {
+                    hamburger.classList.toggle('active');
+                    navActions.classList.toggle('active');
+                });
+            }
+            
+            // Search functionality
+            const searchInput = document.querySelector('.search-input');
+            if (searchInput) {
+                searchInput.addEventListener('focus', () => {
+                    searchInput.parentElement.classList.add('active');
+                });
+                
+                searchInput.addEventListener('blur', () => {
+                    if (!searchInput.value) {
+                        searchInput.parentElement.classList.remove('active');
+                    }
+                });
+            }
+            
+            // Filter functionality
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const carouselItems = document.querySelectorAll('.carousel-item[data-type]');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const filter = btn.dataset.filter;
+                    
+                    // Update active button
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    // Filter items
+                    carouselItems.forEach(item => {
+                        if (filter === 'all' || item.dataset.type === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // Header background on scroll
+            const header = document.querySelector('.header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+        });
+        
+        // Resize handler for carousels
+        window.addEventListener('resize', () => {
+            initCarousel('trendingTrack', 'trendingPrev', 'trendingNext');
+            initCarousel('releasesTrack', 'releasesPrev', 'releasesNext');
+            initCarousel('docsTrack', 'docsPrev', 'docsNext');
+        });
+    </script>
+</body>
+</html>
+
